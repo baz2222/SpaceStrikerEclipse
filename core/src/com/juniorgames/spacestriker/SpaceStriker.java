@@ -32,6 +32,7 @@ public class SpaceStriker extends ApplicationAdapter {
 	
 	@Override
 	public void create () {
+		//SettingsManager.readSettings();
 		modelsLoading();
 		camSetup();
 		envSetup();
